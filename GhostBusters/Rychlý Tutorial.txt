@@ -1,0 +1,17 @@
+Ghost busters TUTORIAL:
+- POHYB:
+	- šipky
+- STŘELBA:
+	- Mezerník (SPACE)
+- LOGIKA:
+	- hráč začíná na skóre 800
+	- každý náboj stojí 10 skóre 	(aby se zabránilo neustálému držení mezerníku)
+	- eliminace ducha přidává 100 skóre 	(duch ostává eliminován na místě než 
+							hráč eliminuje všechny aktuální duchy)
+	- kolize s živým duchem ubírá skóre rychlostí 10 skóre za epochu
+	- náboj mizí při kolizi s duchem (živým i mrtvým)
+	- je možné mít maximálně 24 aktivních střel
+	- po eliminaci všech duchů na obzarovce se duchové smažou a objeví se náhodný počet nových duchů
+- CÍL:
+	- získat co nejvyšší skóre v časovém limitu 40s
+	- při skóre menším než 0 hra končí prohrou
